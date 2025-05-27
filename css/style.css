@@ -1,0 +1,30 @@
+.product{
+	padding: 70px 0;
+}
+ .navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s;
+    display: inline-block;
+  }
+
+  .navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #000; /* Change to your theme color */
+    transition: width 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+  .hero{
+  	padding: 50px 0;
+
+  }
+  .blue{
+  	padding: 10px 30px;
+  }
